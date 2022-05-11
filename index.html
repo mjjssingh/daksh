@@ -1,0 +1,120 @@
+<!-- As part of your recruitment process we require you
+  to write CSS and JS for the HTML template provided -->
+
+<!-- You should NOT change make any modifications to this file. -->
+<!-- You are allowed to only add attribute to the tags 
+  which will let you select them in your CSS and JS -->
+
+<!-- Refer to the attached screenshot for inspiration -->
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daksh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+  <body>
+    <div id = "wrapper">
+      <!-- NavBar -->
+      <header>
+        <div class = "container">
+          
+          <div class = "child1">
+            <a target="_blank" href="https://google.com">
+              <h1 >Daksh</h1>
+            </a>  
+            
+          </div>
+  
+          <div class = "child2">
+            <nav>
+              <ul>
+                <li class = "headList" style="padding-left: 10%;"><div class="headListDiv"><a target="_blank" href="https://www.google.com/search?q=Home">Home</a></div></li>
+                <li class = "headList"><div class="headListDiv"><a target="_blank" href="https://www.google.com/search?q=Events">Events</a></div></li>
+                <li class = "headList"><div class="headListDiv"><a target="_blank" href="https://www.google.com/search?q=Team">Team</a></div></li>
+                <li id="contact"><div class = "contactDiv"><a target="_blank" href="https://www.google.com/search?q=Contact+Us">Contact Us</a></div></li>
+              </ul>
+            </nav>
+        </div>
+
+        </div>
+      </header>
+
+    <section>
+
+      <div class = "container2">
+
+        <div class = "childA">
+          <img src="undraw_profile_data_re_v81r.svg" alt="Contact Us" id = "pic"/>
+        </div>
+        <div class = "childB">
+          <p id="para">
+            We are always in the lookout for feedback and suggestions. <br>
+            Shoot your queries and rest assured, we'll get back to you ASAP!
+          </p>
+        </div>
+        
+      </div>
+        
+    </section>
+
+    <div id="quote">
+      <i>"Feedback is the breakfast of champions.”</i>
+      <b> - Ken Blanchard</b>
+    </div>
+
+    <section>
+      <div id = "feedback">
+        <form>
+          <fieldset>
+            <legend>Write to us</legend>
+            <label id="firstName" for="fname">First name:</label>
+            <input class = "input" type="text" id="fname" name="fname"  />
+            <br />
+            <label id="collegeName" for="college">College:</label>
+            <input class = "input" list="colleges" name="college" id="college" />
+            <datalist id="colleges">
+              <option value="SASTRA Thanjavur"></option>
+              <option value="IIT Madras"></option>
+              <option value="NIT Trichy"></option>
+              <option value="SSN Chennai"></option>
+            </datalist>
+            <br />
+            <input id = "submit" type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div id="footer">
+        <div id = "last">
+          DAKSH, the international techno-management festival of SASTRA
+        University
+        </div>
+        <span id="social">
+          <a target="_blank" href="https://instagram.com">
+            <div>
+              <img id="insta" src="instagram.png" />
+            </div
+          ></a>
+          <a target="_blank" href="https://twitter.com">
+            <div>
+              <img  id="twitter" src="twitter.png" />
+            </div
+          ></a>
+        </span>
+      </div>
+      
+    </footer>
+    <script src="script.js"></script>
+
+    </div>
+      </body>
+
+</html>
